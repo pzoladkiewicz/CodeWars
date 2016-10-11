@@ -1,0 +1,20 @@
+Create a function named divisors that takes an integer and returns an array with all of the integer's divisors(except for 1 and the number itself). If the number is prime return the string '(integer) is prime' (use Either String a in Haskell).
+
+You can assume that you will only get positive integers as inputs.
+_____________
+
+# for each number in range excluding 1 and integer itself
+# check if division remainder is equal to zero
+# if so add i to list
+
+def divisors(integer):
+    temp = []
+    for i in range(2, integer):
+        if integer%i == 0:
+            temp.append(i)
+    
+    if len(temp) == 0:
+        outputStr = str(integer) + " is prime" 
+        return outputStr
+    else:
+    	return temp
