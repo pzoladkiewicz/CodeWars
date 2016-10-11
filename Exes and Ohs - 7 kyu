@@ -21,3 +21,13 @@ def xo(s):
         return True
     else:
         return False
+        
+________________________
+way better solutions
+
+def xo(s):
+    s = s.lower()
+    return s.count('x') == s.count('o')
+    
+def xo(s):
+    return s.lower().count('x') == s.lower().count('o')
