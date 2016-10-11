@@ -18,3 +18,16 @@ def divisors(integer):
         return outputStr
     else:
     	return temp
+        
+______________
+other solutions
+
+def divisors(num):
+    l = [a for a in range(2,num) if num%a == 0]
+    if len(l) == 0:
+        return str(num) + " is prime"
+    return l
+    
+    
+ def divisors(n):
+    return [i for i in xrange(2, n) if not n % i] or '%d is prime' % n
