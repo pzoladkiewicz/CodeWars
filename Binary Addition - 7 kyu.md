@@ -5,3 +5,8 @@ The binary number returned should be a string.
 
     def add_binary(a,b):
         return "{0:b}".format(a+b)
+
+other solution
+
+    def add_binary(a,b):
+        return bin(a+b)[2:]
