@@ -2,9 +2,9 @@ Your task is to make a function that can take any non-negative integer as a argu
 
 Examples:
 
-Input: 145263 Output: 654321
+> Input: 145263 Output: 654321
 
-Input: 1254859723 Output: 9875543221
+> Input: 1254859723 Output: 9875543221
 ____________
 
 # convert to str => str(num)
