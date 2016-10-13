@@ -2,21 +2,19 @@ Your task is to make a function that can take any non-negative integer as a argu
 
 Examples:
 
-> Input: 145263 Output: 654321
+Input: 145263 Output: 654321
+Input: 1254859723 Output: 9875543221
 
-> Input: 1254859723 Output: 9875543221
-____________
+convert to str => str(num)
+sort => ''.join(sorted(..)
+revese => ..[::-1]
+convert to int => int(..)
 
-# convert to str => str(num)
-# sort => ''.join(sorted(..)
-# revese => ..[::-1]
-# convert to int => int(..)
 
 def Descending_Order(num):
-    return int(''.join(sorted(str(num)))[::-1])
+  return int(''.join(sorted(str(num)))[::-1])
     
-________
 other solution
 
 def Descending_Order(num):
-	return ''.join(sorted(str(num), reverse = True))
+  return ''.join(sorted(str(num), reverse = True))
