@@ -17,3 +17,7 @@ def billboard(name, price=None):
                   
     return cost
 ```
+```
+def billboard(name, price=30):
+    return sum(price for letter in name)
+```
