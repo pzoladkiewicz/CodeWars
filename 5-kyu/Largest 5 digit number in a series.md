@@ -7,7 +7,7 @@ Complete the solution so that it returns the largest five digit number found wit
 
 Adapted from ProjectEuler.net
 _____________________________
-
+```py
 def solution(digits):
 	
     # iterate over digits and for each 5 number digit check if its larger than max
@@ -20,9 +20,8 @@ def solution(digits):
 			max = temp
             
     return max
-    
-_________
-other solution
-
+```
+```py
 def solution(dd):
     return max(int(dd[i:i+5]) for i in range(len(dd) - 4))
+```
