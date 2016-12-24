@@ -1,7 +1,6 @@
 Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contains any char. When no 'x' and 'o' is present should return true.
 
-____________________
-
+```py
 def xo(s):
     # initialize variables
     x = 0
@@ -21,13 +20,15 @@ def xo(s):
         return True
     else:
         return False
-        
+```        
 ________________________
 way better solutions
-
+```py
 def xo(s):
     s = s.lower()
     return s.count('x') == s.count('o')
-    
+```
+```py
 def xo(s):
     return s.lower().count('x') == s.lower().count('o')
+```
