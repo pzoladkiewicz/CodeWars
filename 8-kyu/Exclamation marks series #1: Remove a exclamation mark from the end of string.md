@@ -18,3 +18,7 @@ remove("Hi") === "Hi"
 def remove(s):
     return '' if not s else s[:-1] if s[-1] == '!' else s
 ```
+```py
+def remove(s):
+    return s[:-1] if s.endswith('!') else s
+```
