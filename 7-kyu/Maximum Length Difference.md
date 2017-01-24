@@ -11,7 +11,7 @@ s2 = ["cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"]
 mxdiflg(s1, s2) --> 13
 ```
 
-```py
+```python
 def mxdiflg(a1, a2):
     if not a1 or not a2: return -1
     
@@ -26,13 +26,13 @@ def mxdiflg(a1, a2):
     else:
         return abs(len_a2_min - len_a1_max)
 ```
-```py
+```python
 def mxdiflg(a1, a2):
     if a1 and a2:
         return max(abs(len(x) - len(y)) for x in a1 for y in a2)
     return -1
 ```
-```py
+```python
 def mxdiflg(a1, a2):
     if a1 and a2:
         return max(
