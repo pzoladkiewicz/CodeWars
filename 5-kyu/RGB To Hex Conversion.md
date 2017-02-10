@@ -7,6 +7,7 @@ rgb(255, 255, 300) # returns FFFFFF
 rgb(0,0,0) # returns 000000
 rgb(148, 0, 211) # returns 9400D3
 ```
+```python
     def rgb(r, g, b):
         output = ''
         r = 0 if r < 0 else r
@@ -20,4 +21,4 @@ rgb(148, 0, 211) # returns 9400D3
         output += '{0:02X}'.format(g)
         output += '{0:02X}'.format(b)
         return output
-
+```
