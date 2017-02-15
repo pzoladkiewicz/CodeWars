@@ -18,3 +18,13 @@ def spoonerize(words):
     letters[space+1] = temp
     return ''.join(letters)
 ```
+```python
+def spoonerize(words):
+    a, b = words.split()
+    return '{}{} {}{}'.format(b[0], a[1:], a[0], b[1:])
+```
+```python
+def spoonerize(words):
+    a, b = words.split(' ')
+    return b[0] + a[1:] + ' ' + a[0] + b[1:]
+```
