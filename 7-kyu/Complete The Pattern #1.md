@@ -45,3 +45,7 @@ Examples:
 def pattern(n):
     return ''.join(int(num)*str(num)+'\n' for num in range(1, n+1))[:-1]
 ```
+```python
+def pattern(n):
+    return '\n'.join(str(i) * i for i in range(1, n + 1))
+```
