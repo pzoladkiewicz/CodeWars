@@ -8,10 +8,11 @@ Example: The binary representation of ```1234``` is ```10011010010```, so the fu
             output += int(x)
         return output
         
-```
+```python
 def countBits(n):
     return bin(n).count("1")
 ```
-
-    def countBits(n):
-        return sum(int(x) for x in bin(n)[2:])    
+```python
+def countBits(n):
+    return sum(int(x) for x in bin(n)[2:])    
+```
