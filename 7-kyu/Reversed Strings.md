@@ -5,3 +5,7 @@ solution('world') # returns 'dlrow'
 def solution(str):
     return ''.join(list(reversed(str)))
 ```
+```python
+def solution(str):
+  return str[::-1]
+```
