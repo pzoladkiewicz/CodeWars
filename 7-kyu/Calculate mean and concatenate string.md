@@ -19,3 +19,10 @@ def mean(lst):
             word += x
     return [num/10, word]
 ```
+```python
+def mean(lst):
+    return [
+            sum(int(n) for n in lst if n.isdigit()) / 10.0
+            ,"".join(c for c in lst if c.isalpha())
+            ]
+```
