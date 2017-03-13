@@ -13,12 +13,17 @@ so there are 11 digits `1` for the squares of numbers between 0 and 25.
 
 Note that ```121``` has twice the digit ```1```.
 
-
-    def nb_dig(n, d):
-
-        output = 0
-        for i in range(n+1):
-            output += (str(i*i).count(str(d)))
-        return output
-
-        #return sum((str(i*i).count(str(d))) for i in range(n+1))
+```python
+def nb_dig(n, d):
+  output = 0
+  for i in range(n+1):
+      output += (str(i*i).count(str(d)))
+  return output
+```
+```python
+def nb_dig(n, d):
+    return (''.join([str(num*num) for num in range(n+1)])).count(str(d))
+```
+```python
+return sum((str(i*i).count(str(d))) for i in range(n+1))
+```
