@@ -7,3 +7,7 @@ If you can, try writing it in only one line of code.
 def find_multiples(integer, limit):
     return [integer*m for m in range(1,limit+1) if integer*m <= limit]
 ```
+```python
+def find_multiples(integer, limit):
+    return list(range(integer,limit+1,integer))
+```
