@@ -16,3 +16,14 @@ def sc(apple):
             if apple[x][y] == 'B':
                 return [x,y]
 ```
+```python
+def sc(apple):
+    return [[x,y.index("B")] for x,y in enumerate(apple) if "B" in y][0]
+```
+```python
+def sc(apple):
+    for i in apple :
+        for j in i:
+            if j == "B" :
+                return [apple.index(i),i.index(j)]
+```
