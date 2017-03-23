@@ -8,3 +8,12 @@ def elimination(arr):
             return n
     return None
 ```
+```python
+def elimination(arr):
+    s = set()
+    for i in arr:
+        if i in s:
+            return i
+        s.add(i)
+    return None
+```
