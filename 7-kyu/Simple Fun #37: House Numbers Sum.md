@@ -27,3 +27,7 @@ def house_numbers_sum(inp):
         else:
             s += n
 ```
+```python
+def house_numbers_sum(inp):
+    return sum(inp[:inp.index(0)])
+```
