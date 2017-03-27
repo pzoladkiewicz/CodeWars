@@ -12,5 +12,10 @@ def boolean_to_string(b):
     return 'True' if b else 'False'
 ```
 ```python
+def boolean_to_string(b):
     return ['False', 'True'][b]
+```
+```python
+def boolean_to_string(b):
+    return str(b)
 ```
