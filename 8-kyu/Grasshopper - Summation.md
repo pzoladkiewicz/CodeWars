@@ -7,7 +7,7 @@ For example:
 
     summation(8) -> 36
     1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
-```
+```python
 def summation(num):
     return num*(num + 1)/2
 ```
