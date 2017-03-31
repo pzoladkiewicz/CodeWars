@@ -20,3 +20,7 @@ true if Arthur need to invite more women, false otherwise.
 def invite_more_women(arr):
     return False if sum(arr) <= 0 else True
 ```
+```python
+def invite_more_women(arr):
+    return sum(arr) > 0
+```
