@@ -10,21 +10,26 @@ For example,
       False, False, True,  True]
 The correct answer would be 17.
 
+```python
+def count_sheeps(arrayOfSheeps):
+    return sum(arrayOfSheeps)
+```
+
 Hint: Don't forget to check for bad values like null/undefined
 
-
-    def count_sheeps(arrayOfSheeps):
-        count = 0
-        for el in arrayOfSheeps:
-            if el:
-                count += 1
-        return count
-        
-other..
-
-    def count_sheeps(arrayOfSheeps):
-      return arrayOfSheeps.count(True)
-.
-
-    def count_sheeps(arrayOfSheeps):
-      return len([x for x in arrayOfSheeps if x])
+```python
+def count_sheeps(arrayOfSheeps):
+    count = 0
+    for el in arrayOfSheeps:
+        if el:
+            count += 1
+    return count
+```      
+```python
+def count_sheeps(arrayOfSheeps):
+  return arrayOfSheeps.count(True)
+```
+```python
+def count_sheeps(arrayOfSheeps):
+  return len([x for x in arrayOfSheeps if x])
+```
