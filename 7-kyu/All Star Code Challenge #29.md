@@ -12,3 +12,7 @@ A "word" should be considered a string split by a space character, " " Letter ca
 def reverse_sentence(sentence):
     return ' '.join(list(w[::-1] for w in sentence.split()))
 ```
+```python
+def reverse_sentence(sentence):
+    return ' '.join(w[::-1] for w in sentence.split())
+```
