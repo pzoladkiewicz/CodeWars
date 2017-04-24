@@ -2,11 +2,11 @@ Implement a function that adds two numbers together and returns their sum in bin
 
 The binary number returned should be a string.
 
-
-    def add_binary(a,b):
-        return "{0:b}".format(a+b)
-
-other solution
-
-    def add_binary(a,b):
-        return bin(a+b)[2:]
+```python
+def add_binary(a,b):
+    return "{0:b}".format(a+b)
+```
+```python
+def add_binary(a,b):
+    return bin(a+b)[2:]
+```
