@@ -16,3 +16,7 @@ remove("Hi") === "Hi!"
 def remove(s):
     return ''.join(l for l in s if l != '!')+'!'
 ```
+```python
+def remove(s):
+    return s.replace("!", "") + "!"
+```
