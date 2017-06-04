@@ -2,7 +2,7 @@ There is an events table used to track different key activities taken on a websi
 
 Along with the results, a time series chart will also be provided which will consume the data and be used to visualize the data. Create your query to be ready to be consumed by the chart, such as ensuring the dates are in order.
 
-####"events" Table Schema
+#### "events" Table Schema
 * id
 * name (String)
 * created_at (DateTime)
