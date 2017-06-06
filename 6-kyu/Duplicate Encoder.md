@@ -8,7 +8,7 @@ Examples:
 "(( @" => "))(("
 
 
-```
+```python
 def duplicate_encode(word):
     ret = ''
     for s in word.lower():
@@ -19,6 +19,7 @@ def duplicate_encode(word):
             
     return ret
 ```
-
+```python
     def duplicate_encode(word):
         return ''.join([')' if word.lower().count(x) > 1 else '(' for x in word.lower()])
+```
