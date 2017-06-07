@@ -9,12 +9,13 @@ The parameter of the function findNb ```(find_nb, find-nb)``` will be an integer
 findNb(1071225) --> 45
 findNb(91716553919377) --> -1
 ```
-
-    def find_nb(m):
-        output = 1
-        check = 0
-        while check <= m:
-            check += output ** 3
-            if check == m: return output
-            output += 1
-        return -1
+```python
+def find_nb(m):
+    output = 1
+    check = 0
+    while check <= m:
+        check += output ** 3
+        if check == m: return output
+        output += 1
+    return -1
+```
