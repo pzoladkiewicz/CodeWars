@@ -8,7 +8,7 @@ Implement a function ```likes :: [String] -> String```, which must take in input
     likes ["Max", "John", "Mark"] // must be "Max, John and Mark like this"
     likes ["Alex", "Jacob", "Mark", "Max"] // must be "Alex, Jacob and 2 others like this"
 For more than 4 names, the number in ``and 2 others``` simply increases.
-
+```python
     def likes(names):
       namesLen = len(names)
       if namesLen == 0:
@@ -21,8 +21,8 @@ For more than 4 names, the number in ``and 2 others``` simply increases.
         return str(names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this' )
       else:
         return str(names[0] + ', ' + names[1] + ' and ' + str(namesLen - 2)  + ' others like this' )
-        
-```
+```        
+```python
 def likes(names):
     n = len(names)
     return {
@@ -33,7 +33,7 @@ def likes(names):
         4: '{}, {} and {others} others like this'
     }[min(4, n)].format(*names[:3], others=n-2)
 ```
-
+```python
     def likes(names):
         formats = {
                 0: "no one likes this",
@@ -44,8 +44,8 @@ def likes(names):
             }
         n = len(names)
         return formats[min(n,4)].format(*names, others=n-2)
-
 ```
+```python
 def likes(names):
     if len(names) == 0:
         return "no one likes this"
