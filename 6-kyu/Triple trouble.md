@@ -12,6 +12,7 @@ triple_double(666789, 12345667) == 1
 ```
 If this isn't the case, return ```0```
 
+```python
     def triple_double(num1, num2):
         n = str(num1)
         m = str(num2)
@@ -21,20 +22,20 @@ If this isn't the case, return ```0```
                     if n[n1] == m[m1] and n[n1] == m[m1+1]:
                         return 1
         return 0
-
 ```
+```python
 def triple_double(num1, num2):
     return any([i * 3 in str(num1) and i * 2 in str(num2) for i in '0123456789'])
 ```
-
+```python
     def triple_double(num1, num2):
         num1, num2 = str(num1), str(num2)
         for num in '0123456789':
             if num * 3 in num1 and num * 2 in num2:
                 return 1
         return 0
-        
-```
+```        
+```python
 def triple_double(num1, num2):
     for x in range(10):
         if str(x) * 3 in str(num1):
