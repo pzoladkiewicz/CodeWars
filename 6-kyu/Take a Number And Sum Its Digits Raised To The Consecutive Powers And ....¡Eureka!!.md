@@ -20,12 +20,13 @@ If there are no numbers of this kind in the range [a, b] the function should out
 
 Enjoy it!!
 
-
-    def sum_dig_pow(a, b): # range(a, b + 1) will be studied by the function
-        output = []
-        for n in range(a, b+1):
-            check = 0
-            for d in range(len(str(n))):
-                check += int(str(n)[d])**(d+1)
-                if check == n: output.append(n)
-        return output
+```sql
+def sum_dig_pow(a, b): # range(a, b + 1) will be studied by the function
+    output = []
+    for n in range(a, b+1):
+        check = 0
+        for d in range(len(str(n))):
+            check += int(str(n)[d])**(d+1)
+            if check == n: output.append(n)
+    return output
+```
