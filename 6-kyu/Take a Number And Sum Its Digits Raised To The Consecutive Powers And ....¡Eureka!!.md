@@ -20,7 +20,7 @@ If there are no numbers of this kind in the range [a, b] the function should out
 
 Enjoy it!!
 
-```sql
+```python
 def sum_dig_pow(a, b): # range(a, b + 1) will be studied by the function
     output = []
     for n in range(a, b+1):
