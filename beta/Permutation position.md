@@ -1,7 +1,7 @@
-####Permutation position
+#### Permutation position
 
 In this kata you will have to permutate through a string of lowercase letters, each permutation will start at a and you must calculate how many iterations it takes to reach the current permutation.
-
+```python
 _examples:_
 
     input: 'a'
@@ -22,7 +22,7 @@ _examples:_
     input: 'abb'
     result: 28
     
-```
+```python
 def permutation_position(perm):
     alfa = "abcdefghijklmnopqrstuvwxyz"
     text = perm[::-1] #reverse text
