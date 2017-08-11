@@ -41,5 +41,5 @@ SELECT
 FROM top_half AS t
 JOIN bottom_half AS b
   ON t.id = b.id
-ORDER BY t.id
+ORDER BY species
 ```
