@@ -1,12 +1,10 @@
 For this challenge you need to create a SELECT statement, this SELECT statement will use an IN to check whether a department has had a sale with a price over 98.00 dollars.
 
-####departments table schema
-
+#### departments table schema
 * id
 * name
 
-####sales table schema
-
+#### sales table schema
 * id
 * department_id (department foreign key)
 * name
@@ -15,8 +13,7 @@ For this challenge you need to create a SELECT statement, this SELECT statement 
 * card_number
 * transaction_date
 
-####resultant table schema
-
+#### resultant table schema
 * id
 * name
 ```sql
