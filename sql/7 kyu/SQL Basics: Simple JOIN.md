@@ -1,13 +1,13 @@
 For this challenge you need to create a simple SELECT statement that will return all columns from the products table, and join to the companies table so that you can return the company name.
 
-####products table schema
+#### products table schema
 * id
 * name
 * isbn
 * company_id
 * price
 
-####companies table schema
+#### companies table schema
 * id
 * name
 
