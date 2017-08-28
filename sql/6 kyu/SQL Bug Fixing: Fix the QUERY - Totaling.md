@@ -13,7 +13,7 @@ SELECT
 
 Timmy works for a statistical analysis company and has been given a task of totaling the amount of sales on a given day grouped by each department and then each day.
 
-####Resultant table:
+#### Resultant table:
 
 * day (type: date)
 * department (type: text)
