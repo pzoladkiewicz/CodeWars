@@ -6,7 +6,7 @@ If no card_name is specified you must replace with [card name not found]
 
 If no price is specified you must throw away the record, you must also filter the dataset by prices greater than 50.
 
-####eusales table schema
+#### eusales table schema
 * id
 * name
 * price
@@ -14,7 +14,7 @@ If no price is specified you must throw away the record, you must also filter th
 * card_number
 * transaction_date
 
-####resultant table schema
+#### resultant table schema
 * id
 * name
 * price (greater than 50.00)
