@@ -26,5 +26,5 @@ GROUP BY c.customer_id
 ORDER BY total_amount DESC
 LIMIT 10
 ```
-####Database Schema
+#### Database Schema
 ![Database Schema](http://www.postgresqltutorial.com/wp-content/uploads/2013/05/PostgreSQL-Sample-Database.png)
