@@ -11,7 +11,7 @@ and 1634 (4 digits):
 The Challenge:  
 Your code must return true or false depending upon whether the given number is a Narcissistic number.  
 Error checking for text strings or other invalid inputs is not required, only valid integers will be passed into the function.
-```
+```python
 def narcissistic( value ):
     output = 0
 
