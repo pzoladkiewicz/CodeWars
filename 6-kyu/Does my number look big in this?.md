@@ -20,9 +20,12 @@ def narcissistic( value ):
         
     return True if output == value else False
 ```
+```python
+
     def narcissistic(value):
         return value == sum(int(x) ** len(str(value)) for x in str(value))
-```        
+```
+```python       
 def narcissistic(value):
     return bool(value==sum([int(a) ** len(str(value)) for a in str(value)]))
 ```
