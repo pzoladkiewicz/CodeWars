@@ -19,9 +19,10 @@ Note:
 
 If you are given an array with multiple answers, return the lowest correct index.
 
-
+```python
     def find_even_index(arr):
         for i in range(len(arr)):
             if sum(arr[:i]) == sum(arr[i+1:]):
                  return i
         return -1
+```
