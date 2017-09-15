@@ -2,7 +2,8 @@ Welcome. In this kata you are required to, given a string, replace every letter 
 
 ```alphabet_position("The sunset sets at twelve o' clock.")```   
 Should return ```"20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"``` (As a string.)
-
+```python
     def alphabet_position(text):
         alfa = 'abcdefghijklmnopqrstuvwxyz'
         return ' '.join([str(alfa.find(l.lower())+1) for l in text if l.isalpha()])
+```
