@@ -17,7 +17,7 @@ Note: n, p will always be given as strictly positive integers.
     dig_pow(46288, 3) should return 51 since 4³ + 6⁴+ 2⁵ + 8⁶ + 8⁷ = 2360688 = 46288 * 51
 
 
-```
+```python
 def dig_pow(n, p):
 	number = 0
 	
@@ -30,9 +30,10 @@ def dig_pow(n, p):
 	else:
 		return -1
 ```
-
+```python
     def dig_pow(n, p):
       s = 0
       for i,c in enumerate(str(n)):
          s += pow(int(c),p+i)
       return s/n if s%n==0 else -1
+```
