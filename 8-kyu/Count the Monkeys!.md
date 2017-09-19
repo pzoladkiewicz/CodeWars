@@ -5,11 +5,12 @@ As a good parent, you will sit and count with him. Given the number (n), populat
 For example, if n = 10:
 
 return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-```
+```python
 def monkey_count(n):
     #your code here
     return [l for l in range(1, n+1)]
-```        
-        
+```
+```python
     def monkey_count(n):
         return range(1, n+1)
+```
