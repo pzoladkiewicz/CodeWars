@@ -4,7 +4,7 @@ You can not use multiplier "*" operator.
 
 If your name would be Jeong-Ho Aristotelis, ad would cost £600. 20 leters * 30 = 600 (Space counts as a letter).
 
-```
+```python
 def billboard(name, price=None):
     #your code here - note that in Python we cannot prevent the use of the
     #multiplication, but try not to be lame and solve the kata in another way!
@@ -17,7 +17,7 @@ def billboard(name, price=None):
                   
     return cost
 ```
-```
+```python
 def billboard(name, price=30):
     return sum(price for letter in name)
 ```
