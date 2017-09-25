@@ -7,10 +7,10 @@ The first integer array has 0 number in the second item, since the bus is empty 
 Your task is to return number of people in the bus after the last bus station. Take a look on the test cases :)
 
 Please keep in mind that the test cases ensure that the number of people in the bus is always >= 0. So the return integer can't be negative.
-_________________
 
-# for each element in bus_stops list
-# add first element and subtract second
+
+ for each element in bus_stops list
+ add first element and subtract second
 ```python
 def number(bus_stops):
 	output = 0
@@ -19,7 +19,7 @@ def number(bus_stops):
 	
 	return output
 ```  
-_______________
+
 other solutions
 
 ```python
