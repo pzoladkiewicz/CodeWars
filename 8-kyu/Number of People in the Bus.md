@@ -9,8 +9,7 @@ Your task is to return number of people in the bus after the last bus station. T
 Please keep in mind that the test cases ensure that the number of people in the bus is always >= 0. So the return integer can't be negative.
 
 
- for each element in bus_stops list
- add first element and subtract second
+* for each element in bus_stops list add first element and subtract second
 ```python
 def number(bus_stops):
 	output = 0
