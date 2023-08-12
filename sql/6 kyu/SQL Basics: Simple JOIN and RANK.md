@@ -14,10 +14,10 @@ You should return all people fields as well as the sale count as "sale_count" an
 ```sql
 SELECT   p.id
         ,p.name
-        ,COUNT(s.sale) as sale_count
-        ,RANK() OVER(ORDER BY COUNT(s.sale) DESC) as sale_rank
+        ,COUNT(s.sale) AS sale_count
+        ,RANK() OVER(ORDER BY COUNT(s.sale) DESC) AS sale_rank
 FROM people AS p
 JOIN sales AS s
   ON p.id = s.people_id
-group by p.id, p.name
+GROUP BY p.id, p.name
 ```
